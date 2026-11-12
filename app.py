@@ -23,7 +23,7 @@ st.write(f"Escribiste: {nombre_texto}")
 
 # Barra lateral 
 st.sidebar.text("Esto es una barra lateral")
-st.sidebear.image("https://researchers.uss.cl/skin/footerIcon/", width=200)
+st.sidebar.image("https://researchers.uss.cl/skin/footerIcon/", width=200)
 
 #Boton de la barra lateral 
 if st.sedebar.button("Haz click pero en la barra lateral"):
