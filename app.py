@@ -26,10 +26,10 @@ st.sidebar.text("Esto es una barra lateral")
 st.sidebear.image("https://researchers.uss.cl/skin/footerIcon/", width=200)
 
 #Boton de la barra lateral 
-if st.sedebear.button("Haz click pero en la barra lateral"):
-  st.sidebear.write("¡Boton de la barra presionado!")
+if st.sedebar.button("Haz click pero en la barra lateral"):
+  st.sidebar.write("¡Boton de la barra presionado!")
 
 #Campo de texto de la barra lateral 
-texto_barra = st.sidebear.text_input("Escribe algo de la barra:")
-st.sidebear.write(f"Escribiste en la barra: {texto_barra}")
+texto_barra = st.sidebar.text_input("Escribe algo de la barra:")
+st.sidebar.write(f"Escribiste en la barra: {texto_barra}")
 
