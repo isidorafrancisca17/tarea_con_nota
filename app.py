@@ -13,7 +13,7 @@ st.text("Esta es una aplicacion simple")
 st.image("https://researchers.uss.cl/skin/footerIcon/", width=250)
 
 #Boton de area principal 
-if st.butto("haz click"):
+if st.button("haz click"):
   st.write("¡Boton presionado!")
 
 #Campo de texto del area principal
